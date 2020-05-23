@@ -1,0 +1,101 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		color:#444;
+		}
+header{
+		paddin:10px;
+		color:#444;
+		}
+nav{
+		background-color:#dbdbdb;
+		border-bottom:2px solid #aeaeae;
+		display:flex;
+		justify-content:space-between;
+		padding:8px;
+		font-size:25px;
+	  }
+.drop{
+		width:0px;
+		height:0px;
+		overflow:hidden;
+		transition:height 650ms ease-out;
+		positio:fixed;
+		}
+.drop > div{
+		padding:15px;
+		border-bottom:1px solid cyan;
+		background-color:#dbdbdb;
+		color:#f4f4f4;
+		text-align:center;
+		}
+.brainy,.ham{font-size:25px; align-self:center;}
+.one{
+		margin:2pc auto;
+		background-colo:pink;
+		}
+.topic{
+		font-size:30px;
+		text-align:center;
+		}
+.down{
+		text-align:center;
+		}
+.two{
+		background-colo:lightblue;
+		text-align:center;
+		}
+.small{
+		text-align:center;
+		}
+button{
+		margin:2pc auto 3pc auto;
+		width:80%;
+		padding:10px;
+		border-radius:10px;
+		border:2px double #aeaeae;
+		display:block;
+		}
+.three{
+		width:80%;
+		margin:auto auto 2pc auto;
+		background-color:grey;
+		padding:20px 10px;
+		border-radius:10px;
+		border:2px double #aeaeae;
+		color:#f4f4f4;
+		}
+span{
+		font-family:"Parisienne";
+		font-size:25px;
+		}
+.first,.second,.third{
+		display:none;
+		}
+a:link{
+		color:#444;
+		text-decoration:none;
+		}
+a:hover{
+		text-decoration:underline;
+		}
+
+
+@media(min-width:768px){
+.one,.two{
+		width:40%;
+		margin:auto;
+		}
+.myflex{
+		width:80%;
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+		flex-wrap:wrap;
+		margin:auto;
+		}
+.myflex > section{
+		width:25%;
+		}	
+	}
